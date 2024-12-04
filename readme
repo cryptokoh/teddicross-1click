@@ -1,0 +1,9 @@
+Save the script as `install_tedicross.sh` on your VPS.
+
+Make the script executable:
+chmod +x install_tedicross.sh
+
+Run the script:
+./install_tedicross.sh
+
+Follow the prompts to enter your Telegram Bot API Key, Discord Bot Token, Discord Server ID, and Discord Channel ID. The script will handle the rest, including installing dependencies, setting up Docker, creating necessary files, and running the TediCross bot in a Docker container.
